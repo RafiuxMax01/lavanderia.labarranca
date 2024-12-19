@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuración global */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #5571ff;
+    background-image: url('imagenes/fondo.jpg'); /* Ruta de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #0848a9;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+section h2 {
+    color: #0848a9;
+    margin-bottom: 10px;
+}
+
+/* Pie d
+
